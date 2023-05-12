@@ -5,3 +5,5 @@ B = int(input("Donner l'entier B  :  "))
 
 
 print("le nombre A = {1:d} et le nombre B = {0:d}".format(A, B))
+
+# il version hethi baddilt il tartib bark
