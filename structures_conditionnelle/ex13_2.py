@@ -8,8 +8,11 @@ prodauit = a*b
 
 if a * b > 0 :
     a, b = b, a
-    print("valeur de A = {:d} valeur de B = {:d}".format(a, b))
+    print("echange : ")
 else :
     a = somme 
     b = prodauit
-    print("la somme de deux entier A= {:d} le produit de deux entier B= {:d}".format(a, b))
+    print("somme et produit :  ")
+
+
+print("La nouvelle valeur de A = {:d} la nouvelle valeur de B = {:d}".format(a, b))
