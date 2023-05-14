@@ -1,6 +1,8 @@
 
 # il code hetha min 3and chatgbt w ye5dew jawwou behy mea fih 7atta 8alta
 
+# il version hethi copy , paste mil chatgpt , 9ad 9yes il ex , w bleash tasli7 a8lat
+
 
 # Procedure saisie :
 def saisie():

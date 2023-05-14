@@ -17,10 +17,8 @@ def premier(x):
     nb1 = 3
     while not(conteur > x):
         est_premier = True
-        for i in range(2, int((nb1**0.5)+1)):
-            if nb1 == 2 :
-                est_premier = False
-            elif nb1 % i == 0:
+        for i in range(2, int((nb1**0.5)+1)) :
+            if nb1 % i == 0:
                 est_premier = False
                 break
         if est_premier:
@@ -46,5 +44,3 @@ def affichage() :
 # Algorithme pricipal :
 nb = saisie()
 affichage()
-
-print(int((3**0.5)+1))
