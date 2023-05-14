@@ -45,7 +45,7 @@ def calcule():
 # Procedure affichage :
 def affichage():
     resultat = premier(nb)
-    print("Les {:d} premiers nombres premiers sont {} apres le calcule avec le puissance = {} :".format(len(resultat), premier(nb), calcule()))
+    print("Les {:d} premiers nombres premiers sont {} apres le calcule avec le puissance = {} ".format(len(resultat), premier(nb), calcule()))
 
 
 # Algorithme pricipal :
