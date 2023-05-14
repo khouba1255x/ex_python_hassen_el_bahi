@@ -1,8 +1,5 @@
-# Dans cette vidéo, nous allons écrire un programme qui demande à l'utilisateur de taper un entier n, puis qui calcule la somme des carrées des n premiers entiers impairs.
 
-# il version hethi te7seblik il nombre il premier il kol bimafehom il 2
-# sall7t il syntaxe w ye5dem jawwou behy
-
+# il version hethi zeyda , just il chatgbt 9alli , hakka tawlli tsarri3 chway
 
 
 # Procedure saisie :
@@ -15,12 +12,12 @@ def saisie():
 
 # Procedure premier :
 def premier(x):
-    T = []
-    conteur = 1
-    nb1 = 1
+    T = [1]
+    conteur = 2
+    nb1 = 3
     while not(conteur > x):
         est_premier = True
-        for i in range(2, nb1):
+        for i in range(2, int((nb1**0.5)+1)):
             if nb1 == 2 :
                 est_premier = False
             elif nb1 % i == 0:
@@ -29,7 +26,7 @@ def premier(x):
         if est_premier:
             T.append(nb1)
             conteur += 1
-        nb1 += 1
+        nb1 += 2
     return T
 
 # foction somme :
@@ -50,13 +47,4 @@ def affichage() :
 nb = saisie()
 affichage()
 
-
-
-
-
-
-# hetha bish thabbit bih : 
-# print("=" * 40)
-# print(premier(nb))
-# print("=" * 40)
-# print(somme())
+print(int((3**0.5)+1))

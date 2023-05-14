@@ -1,7 +1,8 @@
 # Dans cette vidéo, nous allons écrire un programme qui demande à l'utilisateur de taper un entier n, puis qui calcule la somme des carrées des n premiers entiers impairs.
 
-# il version hethi te7seblik il nombre il premier il kol bimafehom il 2
+# hetheya il version elli 9ad 9ad hiyya w il ex , m3a tasli7 8alta il 9 != un nombre premier , w m3aha il codition mta3 2!= un nombre impaire
 # sall7t il syntaxe w ye5dem jawwou behy
+ 
 
 
 
@@ -15,9 +16,9 @@ def saisie():
 
 # Procedure premier :
 def premier(x):
-    T = []
-    conteur = 1
-    nb1 = 1
+    T = [1]
+    conteur = 2
+    nb1 = 3
     while not(conteur > x):
         est_premier = True
         for i in range(2, nb1):

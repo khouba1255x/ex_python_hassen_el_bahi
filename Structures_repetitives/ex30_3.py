@@ -1,3 +1,7 @@
+
+# il code hetha min 3and chatgbt w ye5dew jawwou behy mea fih 7atta 8alta
+
+
 # Procedure saisie :
 def saisie():
     while True:
@@ -13,6 +17,7 @@ def calcule(n):
         nombre_impair = 2 * i + 1
         carre = nombre_impair ** 2
         somme += carre
+        print(nombre_impair,": nombre_impair|", somme,": somme|",carre,": carre")
     return somme
 
 # Procedure affichage :
@@ -23,3 +28,5 @@ def affichage():
 # Algorithme principal :
 n = saisie()
 affichage()
+print("=" *40)
+print(calcule(n))
